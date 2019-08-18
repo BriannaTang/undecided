@@ -1,5 +1,11 @@
 #size {
   margin-left: 250px;
   width: 60%;
-  height: 500px;
+  height: 625px;
+}
+
+button {
+  width:250px;
+  height: 80px;
+  font-size: 30px;
 }
