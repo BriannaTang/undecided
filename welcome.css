@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #634F4F;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 30px;
+}
+
+li a {
+  display: block;
+  color: #FFEDED;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #FFCCC9;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFEDED;
+  color: #634F4F;
+}
+
+#margin {
+  margin-left: 500px;
+
+}
+.font{
+  font-size: 50px;
+  font-family: 'Niconne', cursive;
+  font color: black;
+}

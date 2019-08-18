@@ -1,0 +1,104 @@
+
+
+body {
+
+  margin: 0;
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  background-color: #F2D0D0;
+}
+#margin {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top:85px;
+}
+#logo {
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: -20px;
+  width:7.5%;
+  height:7.5%;
+}
+#profile {
+  float: right;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+#profilepic {
+  float: right;
+  width: 45px;
+  height: 45px;
+  margin-right:-7.5px;
+  margin-top: -2.5px;
+
+}
+#active {
+  background-color: #FFCCC9;
+  color: #634F4F;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #634F4F;
+  font-family: ;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #EFE2E1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #FFEDED;
+  color: #634F4F;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#Marginpad{
+  margin-top: 80px;
+
+}
+.resourcefont{
+  font-size: 36px;
+  font-family: 'Niconne', cursive;
+  font color: black;
+}
+
+#resourcesheading{
+  margin-top: 80px;
+  font-size: 60px;
+}
+
+#resourcedescription{
+font-size: 40px;
+font-family: 'Barlow Condensed', sans-serif;
+text-align: center;
+}

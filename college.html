@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="spreadsheet.css">
+<link rel="stylesheet" href="college.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="login.css">
+<script src="login.js"></script>
+<script src="college.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <ul id="navbar">
+    <img id="logo"  src="logo_transparent_small.png" width="7.5%" height="7.5%">
+    <button id="profile" onclick="document.getElementById('id01').style.display='block'"><img id="profilepic" src="profile.png"></button>
+
+  <li><a href="recources.html">Resources</a></li>
+  <li><a href="lifeskills.html">Life Skills</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a href="college.html" id="active">College</a></li>
+  <li><a href="mentor.html">Mentor</a></li>
+  <li><a href="index.html">Home </a></li>
+  </ul>
+
+</head>
+
+<body>
+  <div id="margin">
+    <h3> Search for a school using the searchbar. </h3>
+    <h3> Click on the table headers in order to sort by category. </h3>
+    <h3> Click on a school to view their webpage. </h3>
+
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for schools.." title="Type in a name">
+
+      <table id="myTable">
+        <tr class="header">
+          <th onclick="sortTable(0)" style="width:45%;">Institution</th>
+          <th onclick="sortTable(1)" style="width:23%;">Num. of Students</th>
+          <th onclick="sortTable(2)" style="width:5%;">International Rank</th>
+          <th onclick="sortTable(3)" style="width:37%;">Location</th>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.harvard.edu/">Harvard University</a></td>
+          <td>22,947</td>
+          <td> 1 </td>
+          <td>Cambridge, Massachusetts</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.stanford.edu/">Stanford University</a></td>
+          <td>16,914</td>
+          <td> 2 </td>
+          <td>Palo Alto, California </td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.mit.edu/">MIT</a></td>
+          <td>11,376</td>
+          <td> 3 </td>
+          <td>Cambridge, Massachusetts</td>
+
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.berkeley.edu/">University of California, Berkeley</a></td>
+          <td>41,910</td>
+          <td> 6 </td>
+          <td>Berkeley, California</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.princeton.edu/">Princeton University</a></td>
+          <td> 8,623</td>
+          <td> 7 </td>
+          <td>Princeton, New Jersey</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.columbia.edu/">Columbia University</a></td>
+          <td>32,429</td>
+          <td> 8 </td>
+          <td>New York City, New York</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.caltech.edu/">California Institute of Technology</a></td>
+          <td> 2,238</td>
+          <td> 9 </td>
+          <td>Pasadena, California</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.uchicago.edu/">University of Chicago</a></td>
+          <td>14,467</td>
+          <td>10</td>
+          <td>Chicago, Illinois</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.yale.edu/">Yale University</a></td>
+          <td>12,385</td>
+          <td>11</td>
+          <td>New Haven, Connecticut</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://home.www.upenn.edu/">University of Pennsylvania</a></td>
+          <td>24,806</td>
+          <td>13</td>
+          <td>Philadelphia, Pennsylvania</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.cornell.edu/">Cornell University</a></td>
+          <td>21,904</td>
+          <td>14</td>
+          <td>Ithaca, New York</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.ucla.edu/">University of California, Los Angeles</a></td>
+          <td>44,947</td>
+          <td>15</td>
+          <td>Los Angeles, California</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.jhu.edu/">Johns Hopkins University</a></td>
+          <td>23,917</td>
+          <td>16</td>
+          <td>Baltimore, Maryland</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://umich.edu/">University of Michigan, Ann Arbor</a></td>
+          <td>44,718</td>
+          <td>18</td>
+          <td>Ann Arbor, Michigan</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://www.washington.edu/">University of Washington-Seattle</a></td>
+          <td>46,081</td>
+          <td>19</td>
+          <td>Seattle, Washington</td>
+        </tr>
+        <tr>
+          <td><a id="link" href="https://ucsd.edu/">University of California, San Diego</a></td>
+          <td>35,821</td>
+          <td>20</td>
+          <td>La Jolla, California</td>
+        </tr>
+      </table>
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="profile.png" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <a id="link" href="welcome.html">Login</a>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+<div class="background" id="back">
+<div class="transbox" id="back2">
+<p id="regular"> Contact us! </p>
+<!-- <p id="regular"><a id="aa" href="https://www.instagram.com/tech_plugs/"> Follow us on instagram </p> -->
+<a href="https://www.instagram.com/tech_plugs/"><img id="aaa" src="insta.png"></a>
+<a href="https://www.linkedin.com/feed/"><img id="linkedin" src="linkedin.jpg"></a>
+<a href="https://twitter.com/"><img id="twitter" src="twitter.png"></a>
+<a href="https://www.facebook.com/"><img id="facebook" src="facebook.png"></a>
+</div>
+</div>
+
+</body>
+
+</html>

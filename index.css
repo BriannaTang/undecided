@@ -1,0 +1,80 @@
+body {
+  background-color:#F2D0D0;
+}
+
+#mission {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top:75px;
+}
+#biatris{
+  transform: rotate(90deg);
+  margin-top: 40px;
+}
+#anuja{
+  transform: rotate(270deg);
+  margin-top: 40px;
+}
+#brianna{
+  width:140px;
+  height:180px;
+  margin-top:18px;
+  margin-left:20px;
+}
+
+#navbar {
+  z-index: 1;
+}
+
+#ourmission, #goal, #feedback{
+  font-size: 90px;
+  font-family: 'Libre Caslon Display', serif;
+  font-style: normal;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#mission, #student {
+  font-style:normal;
+  color: black;
+  font-size: 30px;
+
+
+}
+#sand{
+  width:400px;
+  height:510px;
+}
+
+#feedback{
+    font-size: 50px;
+  font-style:normal;
+  color: black;
+  margin-top: 100px;
+}
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: center;
+}
+div.desk {
+  padding: 1px;
+  text-align: center;
+}
+
+#myCarousel {
+  width: 100%;
+  height: 40%;
+}
