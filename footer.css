@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
+  opacity: 0.6;
 }
 
 #aaa {
@@ -48,6 +49,7 @@ transition: transform .2s;
   margin-top: 25;
   transition: transform .2s;
 
+
 }
 
 #linkedin:hover {
@@ -55,10 +57,9 @@ transform: scale(1.5);
 transition: transform .2s;
 }
 
-#back2 {
-
+#margins {
+  margin-top: 300px;
 }
-
 
 
 #aa {
@@ -68,6 +69,8 @@ transition: transform .2s;
 
 #regular {
   color: pink;
+  font-size: 16px;
+  text-align: left;
 }
 div.transbox { */
     margin: 30px;
