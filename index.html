@@ -31,27 +31,26 @@
     <h2>Carousel Example</h2>
     <center>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-
         <div class="item active">
-          <img src="FFD9E0.jpg" alt="College and Career" style="width:100%;">
+          <img id= "sand" src="FFD9E0.jpg" alt="College and Career" style="width:100%;">
           <div class="carousel-caption">
             <p id= "ourmission">
               Our Mission
             </p>
 
-
             <h3 id= "mission" >
-              <br>
+
               College and Career is a teen created resource center for highschool Students. Our goal is to make the college process easier and finals week stress free. We do the research for you so you dont have to. Feel free to browse our website, we have resources for mentors, volenteer/career oppertunities and colleges for you to browse. Have your highschool exerience be more and use our resources.</h3>
+          </div>
+        </div>
+
+        <div class="item">
+          <img id= "sand" src="FFD9E0.jpg" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            <!-- <h3>Goal</h3> -->
+            <p id="goal"> Preparing Students For a Brighter Future!</p>
           </div>
         </div>
         <div class="item">
@@ -63,13 +62,13 @@
            <p id= "student"> "Undecided has helped me prepare for college in ways that I woud not have if it wasnt for this website. Thank you"</p>
          </div>
        </div>
-       <div class="item">
-         <img src="FFD9E0.jpg" alt="New York" style="width:100%;">
-         <div class="carousel-caption">
-           <!-- <h3>Goal</h3> -->
-           <p id="goal"> Preparing Students For a Brighter Future!</p>
-         </div>
-       </div>
+
+       <!-- Indicators -->
+       <ol class="carousel-indicators">
+         <span class="dot" onclick="currentSlide(1)" class="active"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+       </ol>
 
 
       </div>
