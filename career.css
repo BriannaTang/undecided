@@ -144,7 +144,7 @@ div.transbox { */
     background-color: black;
     opacity: 0.75;
     filter: alpha(opacity=75); /* For IE8 and earlier */
-    align-items: stretch;
+    align-items: stretch;s
     padding-bottom: 60px;
 }
 
