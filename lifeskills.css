@@ -11,9 +11,11 @@ p{
 }
 .column {
   float: left;
-  width: 50%;
+  width: 40%;
   height: 325px; /* Should be removed. Only for demonstration */
   position: relative;
+  margin-left: 100px;
+  margin-bottom: 80px;
 
 }
 
@@ -46,7 +48,4 @@ p{
 
 .column:hover .overlay {
   opacity: 1;
-}
-#navbar{
-  z-index:1;
 }
