@@ -25,6 +25,8 @@ body {
 
 #navbar {
   z-index: 1;
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 15px;
 }
 
 #ourmission, #goal, #feedback{
