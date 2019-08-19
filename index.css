@@ -53,7 +53,7 @@ body {
 }
 
 #sand{
-  width:400px;
+  width:200px;
   height:570px;
 }
 
@@ -66,12 +66,13 @@ body {
 }
 
 div.gallery {
-  margin: 20px;
+  margin: 60px;
   border: 2px solid gray;
   float: left;
   width: 180px;
   background-color: #ffc9c9cc;
-  align-self: right;
+  align-self: center;
+  /* grid-column-gap:  */
 
 }
 

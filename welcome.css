@@ -32,9 +32,20 @@ li a:hover:not(.active) {
 }
 
 #margin {
-  margin-left: 500px;
+  margin-left: 350px;
+}
+
+#back2 {
+  margin-left:315px;
+}
+#icon {
+  float: right;
 
 }
+#regular {
+  text-align: right;
+}
+
 .center {
   display: block;
   margin-left: auto;
