@@ -37,9 +37,19 @@ body {
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-#goal, #ourmission{
+#ourmission{
   font: bold;
   color: white;
+}
+
+#goal{
+  color:black;
+  font-size: 40px;
+  margin-top: -450px;
+  font: bold;
+  margin-right: 100px;
+
+
 }
 
 
@@ -50,6 +60,7 @@ body {
 }
 #student{
   font-family: 'Dancing Script', cursive;
+  color: black;
 }
 
 #sand{
