@@ -48,8 +48,6 @@ body {
   margin-top: -450px;
   font: bold;
   margin-right: 100px;
-
-
 }
 
 
@@ -57,16 +55,23 @@ body {
   font-style:normal;
   color: white;
   font-size: 30px;
+
 }
 #student{
   font-family: 'Dancing Script', cursive;
   color: black;
 }
 
+#sands{
+  width:200px;
+  height:570px;
+  opacity: 0.5;
+}
 #sand{
   width:200px;
   height:570px;
 }
+
 
 #feedback{
   font-size: 50px;
