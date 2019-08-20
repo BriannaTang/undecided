@@ -3,7 +3,7 @@
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png');
+  background-image: url('../../searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 100%;
@@ -42,6 +42,13 @@ th {
 #link:hover {
   color:blue;
   text-decoration: underline;
+}
+h2 {
+  font-weight: normal;
+  font-family: arial, sans-serif;
+  font-size: 23px;
+
+
 }
 
 #navbar{
