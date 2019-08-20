@@ -5,6 +5,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-top:75px;
+  color: white;
 }
 
 .dot {
@@ -38,6 +39,7 @@ body {
 }
 #goal, #ourmission{
   font: bold;
+  color: white;
 }
 
 
