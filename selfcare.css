@@ -1,9 +1,10 @@
 #care {
-  width:33%;
+  width:20%;
   height:auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 .img:hover{
-  position: absolute; /* Stay in place */
   z-index: 1; /* Sit on top */
   -webkit-transition: all .5s ease-in;
   -moz-transition: all .5s ease-in;

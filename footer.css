@@ -92,6 +92,7 @@ div.transbox { */
     filter: alpha(opacity=75); /* For IE8 and earlier */
     align-items: stretch;
     padding-bottom: 60px;
+  
 }
 
 div.transbox p {
