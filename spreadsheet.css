@@ -86,16 +86,66 @@ tr:nth-child(even) {
   margin-top: 80px;
 
 }
+.resourcefont3 {
+  font-size: 40px;
+  text-align: center;
+}
+
 .resourcefont{
   font-size: 36px;
   font-family: 'Niconne', cursive;
-  font color: black;
+  font color: white;
+}
+div.transbox2 {
+    /* margin: 30px; */
+    /* padding-left: 75px;
+    margin-top: 80px;
+    background-color: black;
+    background-image: url("hands-using-computer-in-office.jpg");
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    /* align-items: stretch;s
+    padding-bottom: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    opacity: 1;
+    z-index:0; */
+    margin-top: 75px;
+    padding-left: 75px;
+    /* border: 30px solid black; */
+    background-color: black;
+    background-image:url("hands-using-computer-in-office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    align-items: stretch;
+    padding-bottom: 60px;
 }
 
-#resourcesheading{
-  margin-top: 80px;
+div.transbox2 p {
+  margin: 4%;
+  font-weight: bold;
+  color: black;
+  /* margin-top: 150px;
   font-size: 60px;
-}
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1;
+  opacity: .5; */
+ }
+ div.background2 {
+   background-color: pink;
+ }
+
+
+
+
+
+
 
 #resourcedescription{
 font-size: 40px;
