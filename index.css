@@ -5,6 +5,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-top:75px;
+  color: white;
 }
 
 .dot {
@@ -36,20 +37,30 @@ body {
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-#goal{
-  font-family: 'Dancing Script', cursive;
-}
 #ourmission{
-  font-family: 'Dancing Script', cursive;
+  font: bold;
+  color: white;
 }
+
+#goal{
+  color:black;
+  font-size: 40px;
+  margin-top: -450px;
+  font: bold;
+  margin-right: 100px;
+
+
+}
+
 
 #mission, #student {
   font-style:normal;
-  color: black;
+  color: white;
   font-size: 30px;
 }
 #student{
   font-family: 'Dancing Script', cursive;
+  color: black;
 }
 
 #sand{
