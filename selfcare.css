@@ -2,3 +2,16 @@
   width:33%;
   height:auto;
 }
+.img:hover{
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  -webkit-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -ms-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+  opacity: 1;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+}
