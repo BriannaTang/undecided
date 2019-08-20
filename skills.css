@@ -1,9 +1,12 @@
 #laundry {
   width:20%;
   height:auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
-.img:hover{
-  position: absolute; /* Stay in place */
+
+.img:hover {
+  position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   -webkit-transition: all .5s ease-in;
   -moz-transition: all .5s ease-in;
@@ -11,9 +14,9 @@
   -o-transition: all .5s ease-in;
   transition: all .5s ease-in;
   opacity: 1;
-  transform: scale(2);
-  -ms-transform: scale(2); /* IE 9 */
-  -webkit-transform: scale(2); /* Safari and Chrome */
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
   margin: none;
 
 }
