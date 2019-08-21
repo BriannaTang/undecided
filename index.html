@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -27,8 +27,22 @@
 </head>
 <body>
   <!-- START OF CAROUSEL CODE  -->
+
+  <div id="margin">
+    <div style="float:right;" id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+              {pageLanguage: 'en'},
+              'google_translate_element'
+          );
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<br>
+<br>
+<br>
   <div class="container">
-    <h2>Carousel Example</h2>
     <center>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Wrapper for slides -->
@@ -58,7 +72,7 @@
            <p id= "feedback">
          <strong>What students are saying about our services</strong>
           </p>
-           <p id= "student"> "Undecided has helped me prepare for college in ways that I woud not have if it wasnt for this website. Thank you"</p>
+           <p id= "student"> "Undecided has helped me prepare for college in ways that I would not have if it wasn't for this website. Thank you"</p>
          </div>
        </div>
 
@@ -84,6 +98,7 @@
     </div>
     </center>
   </div>
+</div>
 
   <!-- END OF CAROUSEL CODE -->
 
