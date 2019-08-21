@@ -24,15 +24,25 @@
 
 <body>
   <div id="margin">
+    <div style="float:right;" id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+              {pageLanguage: 'en'},
+              'google_translate_element'
+          );
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for schools.." title="Type in a name">
 
       <table id="myTable">
         <tr class="header">
-          <th onclick="sortTable(0)" style="width:45%;">Institution ⮟</th>
-          <th onclick="sortTable(1)" style="width:23%;">Num. of Students ⮟</th>
-          <th onclick="sortTable(2)" style="width:5%;">International Rank ⮟</th>
-          <th onclick="sortTable(3)" style="width:37%;">Location ⮟</th>
+          <th onclick="sortTable(0)" style="width:45%;">Institution<img id="arrow" width="12%" height="7%" src="arrow.png"></th>
+          <th onclick="sortTable(1)" style="width:23%;">Num. of Students<img id="arrow" width="22%" height="7%" src="arrow.png"></th>
+          <th onclick="sortTable(2)" style="width:5%;">International Rank<img id="arrow" width="50%" height="7%" src="arrow.png"></th>
+          <th onclick="sortTable(3)" style="width:37%;">Location<img id="arrow" width="18%" height="7%" src="arrow.png"></th>
         </tr>
         <tr>
           <td>Harvard University <a id="link" href="https://www.harvard.edu/" target="_blank"><img width=20 height=15 src="newtab.png"></a></td>
@@ -164,11 +174,12 @@
 <p id="regular"> Contact us! </p>
 <!-- <p id="regular"><a id="aa" href="https://www.instagram.com/tech_plugs/"> Follow us on instagram </p> -->
 <a href="https://www.instagram.com/undecided822/" target="_blank"><img id="aaa" src="insta.png"></a>
-<a href="https://www.linkedin.com/feed/" target="_blank"><img id="linkedin" src="linkedin.jpg"></a>
 <a href="https://twitter.com/Undecid39239090/" target="_blank"><img id="twitter" src="twitter.png"></a>
 <a href="https://www.facebook.com/Undecided-College-Career-114989093195723/?view_public_for=114989093195723" target="_blank"><img id="facebook" src="facebook.png"></a>
 </div>
 </div>
+<iframe src="https://open.spotify.com/embed/album/7cLo3vzpHmCHghvtwtZoXn" style="margin-top:-30px;margin-bottom:-30px;" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><!-- contact us -->
+
 
 </body>
 

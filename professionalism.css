@@ -5,18 +5,19 @@
 }
 
 button {
-  width:250px;
-  height: 80px;
-  font-size: 30px;
+  width:80px;
+  height:30px;
 }
 .button {
-  background-color: #4CAF50;
+  background-color: #81f781;
   border: none;
   color: white;
-  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 10px;
   margin: 4px 2px;
+  border-radius: 12px;
+  margin-left: 1015px;
+
 }
