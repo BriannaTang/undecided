@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
+#arrow {
+  margin-left: -5px;
+  margin-bottom: -13px;
+}
 #myInput {
   background-image: url('../../searchicon.png');
   background-position: 10px 10px;
