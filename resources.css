@@ -1,0 +1,227 @@
+/* NAVIGATION BAR_______________________ */
+
+#navbar {
+  z-index: 1;
+}
+
+#active {
+  background-color: #FFCCC9;
+  color: #634F4F;
+}
+
+#logo {
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: -20px;
+  width:7.5%;
+  height:7.5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #634F4F;
+  font-family: ;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #EFE2E1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #FFEDED;
+  color: #634F4F;
+}
+
+
+/* FOOTER __________________________________________________ */
+
+#back {
+  background-image: url("businessman-on-smartphone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  opacity: 1;
+}
+
+#aaa {
+  width: 70px;
+  margin-top: 25;
+  transition: transform .2s;
+
+}
+
+#aaa:hover {
+transform: scale(1.5);
+transition: transform .2s;
+}
+#twitter {
+  width: 70px;
+  margin-top: 25;
+  transition: transform .2s;
+
+}
+
+#twitter:hover {
+transform: scale(1.5);
+transition: transform .2s;
+}
+
+
+#facebook {
+  width: 70px;
+  margin-top: 25;
+  transition: transform .2s;
+
+}
+
+#facebook:hover {
+transform: scale(1.5);
+transition: transform .2s;
+}
+
+
+#linkedin {
+  width: 70px;
+  margin-top: 25;
+  transition: transform .2s;
+
+
+}
+
+#linkedin:hover {
+transform: scale(1.5);
+transition: transform .2s;
+}
+
+
+
+#aa {
+  color: white;
+  font-size: 30px;
+
+
+}
+
+/* DIV_______________________________ */
+
+.heading {
+  background-color: #3B5B71;
+  padding: 15px;
+  margin: 0;
+}
+.heading p {
+  color: white;
+}
+.new {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color:blue; 
+}
+
+#first {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("hands-using-computer-in-office.jpg")
+
+
+}
+
+#second {
+  background-color: black;
+  opacity: 0.5;
+  margin-top: 75px;
+  padding-top: 30px;
+  z-index: -1;
+  padding-bottom: 100px;
+
+}
+#second p {
+  font-weight: bold;
+  color:white;
+  z-index: 1;
+  opacity: 1;
+  margin-left: 100px;
+}
+
+#regular {
+  color: pink;
+  font-size: 25px;
+  text-align: left;
+  opacity: 1;
+}
+
+#re {
+  text-align: center;
+  font-size: 60px;
+  font-family: bold;
+}
+/*
+#regular2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 300px;
+} */
+div.transbox {
+    margin: 0;
+    padding-left: 75px;
+    border: 30px solid black;
+    background-color: black;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    align-items: stretch;
+    padding-bottom: 60px;
+
+}
+
+div.transbox p {
+  margin: 4%;
+  font-weight: bold;
+  color: black;
+ }
+div.background {
+  background-color: pink;
+}
+
+
+/* TABLE __________________________________ */
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
