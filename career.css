@@ -144,12 +144,13 @@ tr:nth-child(even) {
 }
 
 
-div.transbox { */
-    padding-left: 75px;
-    background-color: black;
-    opacity: 0.75;
-    /* align-items: stretch; */
-    padding-bottom: 0px;
+div.transbox {
+  padding-left: 75px;
+  background-color: black;
+  opacity: 0.75;
+  /* align-items: stretch; */
+  padding-bottom: 0px;
+  margin: auto;
 }
 
 div.transbox p {
